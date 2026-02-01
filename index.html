@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>CHIKORITA</title>
+
+
+<!-- External CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<div class="container">
+<header>
+<h1>Hi Cheeku ❤️</h1>
+<p>No matter what happens you are my forever cutiepie</p>
+</header>
+
+
+<section class="content">
+<h2>THE MOST IMPORTANT QUESTION</h2>
+<p>
+Do You Pyaar Me 🙄🙄
+</p>
+
+
+
+
+
+<div class="button-grid">
+    <button onclick="showImage('images/img1.jpeg')">YES</button>
+    <button onclick="showImage('images/img2.jpeg')">YES</button>
+    <button onclick="showImage('images/img3.jpeg')">YES</button>
+    <button onclick="showImage('images/img4.jpeg')">YES</button>
+    
+    
+  </div>
+  
+  <!-- Image display area -->
+  <div class="image-box">
+    <img id="displayImage" src="" alt="Click a button to see image">
+  </div>
+  
+  
+
+
+<footer>
+<p>Yours Truly , 
+    Giraffe ❤️
+</p>
+</footer>
+</div>
+
+<script>
+    function showImage(imageName) {
+      document.getElementById("displayImage").src = imageName;
+    }
+  </script>
+
+</body>
+</html>
